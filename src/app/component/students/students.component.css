@@ -1,0 +1,28 @@
+table{
+  background-color: wheat;
+  width: 70%;
+  margin: 10px auto;
+  border: 2px solid rgb(179, 50, 3);
+  border-radius: 5px;
+}
+tr{
+  text-align: center;
+  padding: 8px;
+}
+th{
+  color: rgb(179, 50, 3);
+  font-size: 17px;
+  font-weight: 700;
+
+}
+td{
+  border-top: 1px solid rgb(179, 50, 3);
+  font-size: 16px;
+  font-weight: 600;
+
+
+}
+h1{
+  text-align: center;
+  color: rgb(114, 20, 20);
+}

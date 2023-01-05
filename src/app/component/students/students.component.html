@@ -1,0 +1,21 @@
+<h1>Form details</h1>
+<table>
+  <thead>
+    <tr>
+      <th>
+        Name
+      </th>
+      <th>
+        Age
+      </th>
+      <th>
+        Email
+      </th>
+    </tr>
+    <tr *ngFor="let s of students">
+      <td>{{s.name}}</td>
+      <td>{{s.age}}</td>
+      <td>{{s.mail}}</td>
+    </tr>
+  </thead>
+</table>

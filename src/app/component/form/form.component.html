@@ -1,0 +1,45 @@
+<div class="container">
+  <form action="" [formGroup]="myReg">
+    <div class="form">
+      <div class="inp">
+        <label for="">Your Name</label>
+      <input formControlName="name" class="inpt" type="text" placeholder="name">
+      <div class="error" *ngIf="!NameValid">{{nameError}}</div>
+      </div>
+      <div class="inp">
+        <label for="">Your age</label>
+      <input formControlName="age" class="inpt" type="number" placeholder="Age">
+      <div class="error" *ngIf="!ageValid">{{ageError}}</div>
+      </div>
+      <div class="inp">
+        <label for="">Your Email</label>
+      <input formControlName="mail" class="inpt" type="text" placeholder="mail">
+      <div class="error" *ngIf="!mailValid">{{mailError}}</div>
+      </div>
+      <input type="button" value="Add" (click)="passData()">
+      </div>
+  </form>
+</div>
+
+<h1>Form details</h1>
+<table>
+  <thead>
+    <tr>
+      <th>
+        Name
+      </th>
+      <th>
+        Age
+      </th>
+      <th>
+        Email
+      </th>
+    </tr>
+    <tr *ngFor="let s of students">
+      <td>{{s.name}}</td>
+      <td>{{s.age}}</td>
+      <td>{{s.mail}}</td>
+
+    </tr>
+  </thead>
+</table>

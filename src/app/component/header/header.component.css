@@ -1,0 +1,7 @@
+li a{
+  color: white;
+  font-weight: 700;
+}
+li:hover{
+  color: rgb(211, 208, 208);
+}

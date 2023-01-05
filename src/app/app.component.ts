@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'project';
+  students:{name:string,age:Number,mail:any}[] = [];
+  getChildData(data:any){
+    this.students.push(data);
+  }
 }
+

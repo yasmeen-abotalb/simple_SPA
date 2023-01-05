@@ -1,0 +1,8 @@
+.btn-start{
+  background-color: rgb(179, 50, 3);
+  color: white;
+  font-weight: 600;
+}
+.btn-start:hover{
+  background-color: rgb(226, 72, 16);
+}
